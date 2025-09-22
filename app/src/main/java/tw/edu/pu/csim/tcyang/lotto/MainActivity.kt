@@ -54,7 +54,7 @@ fun Play(modifier: Modifier = Modifier) {
     Column (modifier = modifier
         .fillMaxSize()
         .clickable {
-            Toast.makeText(context, "螢幕觸控(楊子青)", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, "螢幕觸控(Brian)", Toast.LENGTH_SHORT).show()
         },
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
@@ -68,6 +68,7 @@ fun Play(modifier: Modifier = Modifier) {
         ) {
             Text("重新產生樂透碼")
         }
+            Text("與Brian共同編輯程式")
     }
 
 
